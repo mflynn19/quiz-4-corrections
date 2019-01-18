@@ -13,3 +13,5 @@ Multiple Choice Corrections
 7. When writing a method, you must always include a visibility indicator, an access modifier, and the method name (in that order). Together, this is known as the method's signature. This would look something like public void getCars.
 
 13. These lines of code would return "cdefg" and "ef" after running the code because the first modification would remove all the letters before 'c' to only have c and the letters following it since it has no "stop" indicator in the substring method. The second modification would cut the string before g and after, but also including, 'e'. 
+
+15. The error with the code at hand is that the limits that are checked don't account for any number of seends less than or equal to 500. The code checks if seeds is greater than 1000, or if it's greater than 500-- nothing less than those limits.
