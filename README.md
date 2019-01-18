@@ -14,4 +14,4 @@ Multiple Choice Corrections
 
 13. These lines of code would return "cdefg" and "ef" after running the code because the first modification would remove all the letters before 'c' to only have c and the letters following it since it has no "stop" indicator in the substring method. The second modification would cut the string before g and after, but also including, 'e'. 
 
-15. The error with the code at hand is that the limits that are checked don't account for any number of seends less than or equal to 500. The code checks if seeds is greater than 1000, or if it's greater than 500-- nothing less than those limits.
+15. The error with the code at hand is that Math.random() only returns doubles greater than 0, which the 'else if' statement does not comply with since the return result is multiplied by negative one. The other answers don't make sense because there is an error, you can have mutliple return statements for different clauses, and checking every single range doesn't matter.
