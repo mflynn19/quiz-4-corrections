@@ -1,0 +1,15 @@
+public String evensOnly(String original) {
+	if (original.equals(null)) {
+		return null;
+	}
+	else if (original.equals("")) {
+		return "String is empty.";
+	}
+	else {
+		String nuevo;
+		if (original.index(i) % 2 == 0) {
+			nuevo = nuevo + original.charAt(i);
+			i++;
+		}
+		return nuevo;
+	}
